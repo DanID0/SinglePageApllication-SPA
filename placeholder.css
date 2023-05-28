@@ -1,0 +1,48 @@
+* {
+  margin: 40px 50px;
+}
+.time-text {
+  background-color: #ffffff;
+  color: #059669;
+  font-size: 22px;
+
+  float: right;
+}
+.grand-op {
+  display: inline-block;
+  color: #047857;
+}
+.text-white {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 33vw;
+  height: 16vh;
+  left: 48rem;
+  top: 75vh;
+
+  background: #ffffff;
+}
+.line {
+  border: 2px dashed #ecfdf5;
+}
+.green-container {
+  position: relative;
+  width: 86vw;
+  height: 50vh;
+  margin-left: 16rem;
+  background: linear-gradient(30.63deg, #059669 26.17%, #10b981 97.06%);
+}
+.whitish-container {
+  display: flex;
+  flex-direction: row;
+  width: 34vw;
+  height: 16vh;
+  position: relative;
+  margin-right: 5rem;
+  background: #ecfdf5;
+  z-index: 9;
+}
+.overlay {
+  z-index: 9;
+}
